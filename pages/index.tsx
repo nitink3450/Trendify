@@ -1,3 +1,4 @@
+import Footer from "@/components/global/footer";
 import Header from "@/components/global/header";
 import Head from "next/head";
 
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <Header/>
+        <Footer/>
       </main>
     </>
   );
