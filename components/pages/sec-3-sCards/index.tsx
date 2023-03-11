@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 // import SCard from "../common/sCard";
 // import { scards } from "@/data/sCard";
 const SecSCards3 = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center mt-[201px]">
+      <div className="flex relative flex-col justify-center items-center mt-[201px]">
         <div className="font-bold max-w-[461px] text-center text-[32px] leading-[44px]">
           Trendify Understands your Needs and have the{" "}
           <span className="text-[#038cc4]">solutions</span>
@@ -60,6 +61,22 @@ const SecSCards3 = () => {
               Networking
             </div>
           </div>
+        </div>
+        <div className="absolute top-[200px] -z-10 right-0">
+          <Image
+            src={"./images/gradients/rightGrad.svg"}
+            height={616}
+            width={616}
+            alt="logo"
+          />
+        </div>
+        <div className="absolute left-[50%] translate-x-[-50%] -z-10 bottom-[-250px]">
+          <Image
+            src={"./images/gradients/centerGrad.svg"}
+            height={616}
+            width={616}
+            alt="logo"
+          />
         </div>
       </div>
     </>
