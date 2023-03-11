@@ -2,6 +2,8 @@ import Footer from "@/components/global/footer";
 import Header from "@/components/global/header";
 import SecBanner1 from "@/components/pages/sec-1-banner";
 import SecAccess2 from "@/components/pages/sec-2-access";
+import SecSCards3 from "@/components/pages/sec-3-sCards";
+import SecHCards4 from "@/components/pages/sec-4-hCards";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -18,6 +20,8 @@ export default function Home() {
         <Header />
         <SecBanner1 />
         <SecAccess2 />
+        <SecSCards3/>
+        <SecHCards4/>
         <div className="space-50vh"></div>
         <Footer />
         <div className="absolute z-[-10] h-fit w-fit top-0 right-0">

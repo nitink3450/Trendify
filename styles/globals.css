@@ -24,7 +24,26 @@
       text-fill-color: transparent;
     }
 
-    .space-50vh{
-      height: 50vh ;
+    .gradText {
+      font-weight: 700;
+      font-size: 152px;
+      line-height: 111px;
+      letter-spacing: -10px;
+      background: linear-gradient(90.79deg, rgba(255, 255, 255, 0.33) 0.48%, #FFFFFF 24.27%, #FFFFFF 68.52%, rgba(255, 255, 255, 0.29) 106.69%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+
+    .hcardBg {
+      background: rgba(75, 75, 75, 0.4);
+      background-blend-mode: screen, normal;
+      backdrop-filter: blur(6px);
+      border-radius: 80px;
+    }
+
+    .space-50vh {
+      height: 50vh;
     }
   }
