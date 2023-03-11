@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <ul className="opacity-70 flex flex-col items-start gap-[8px] w-[146px]">
             <li className="flex flex-row justify-center items-center gap-[8px]">
-              <div className="h-fit w-fit ">
+              <div className="h-[16px] w-[16px] ">
                 <Image
                   src={"./icons/fb.svg"}
                   height={16}
@@ -33,7 +33,7 @@ const Footer = () => {
               <span>Facebook</span>
             </li>
             <li className="flex flex-row justify-center items-center gap-[8px]">
-              <div className="h-fit w-fit ">
+              <div className="h-[16px] w-[16px] ">
                 <Image
                   src={"./icons/Linkedin.svg"}
                   height={16}
@@ -44,7 +44,7 @@ const Footer = () => {
               <span>Linkedin</span>
             </li>
             <li className="flex flex-row justify-center items-center gap-[8px]">
-              <div className="h-fit w-fit ">
+              <div className="h-[16px] w-[16px] ">
                 <Image
                   src={"./icons/Twitter.svg"}
                   height={16}
@@ -55,7 +55,7 @@ const Footer = () => {
               <span>Twitter</span>
             </li>
             <li className="flex flex-row justify-center items-center gap-[8px]">
-              <div className="h-fit w-fit ">
+              <div className="h-[16px] w-[16px]">
                 <Image
                   src={"./icons/Instagram.svg"}
                   height={16}

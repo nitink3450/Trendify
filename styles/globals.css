@@ -3,3 +3,28 @@
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
+
+  @layer utilities {
+    .wrapper {
+      padding: 60px 120px;
+    }
+
+    .moreText {
+      /* font-weight: bold; */
+      font-size: 277px;
+      /* line-height: 313px; */
+      text-align: center;
+      height: 180px;
+      width: 700px;
+      letter-spacing: -10px;
+      background: linear-gradient(90.79deg, rgba(255, 255, 255, 0.33) 0.48%, #FFFFFF 24.27%, #FFFFFF 68.52%, rgba(255, 255, 255, 0.29) 106.69%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+
+    .space-50vh{
+      height: 50vh ;
+    }
+  }
