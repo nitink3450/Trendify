@@ -4,6 +4,8 @@ import SecBanner1 from "@/components/pages/sec-1-banner";
 import SecAccess2 from "@/components/pages/sec-2-access";
 import SecSCards3 from "@/components/pages/sec-3-sCards";
 import SecHCards4 from "@/components/pages/sec-4-hCards";
+import SecSchedule5 from "@/components/pages/sec-5-schedule";
+import SecVCards6 from "@/components/pages/sec-6-vCards";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -16,13 +18,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-[200vh] relative">
+      <main className="relative">
         <Header />
         <SecBanner1 />
         <SecAccess2 />
-        <SecSCards3/>
-        <SecHCards4/>
-        <div className="space-50vh"></div>
+        <SecSCards3 />
+        <SecHCards4 />
+        <SecSchedule5 />
+        <SecVCards6 />
         <Footer />
         <div className="absolute z-[-10] h-fit w-fit top-0 right-0">
           <Image
