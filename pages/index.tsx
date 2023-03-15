@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="relative">
+      <main className="relative border border-red-500 overflow-hidden">
         <Header />
         <SecBanner1 />
         <SecAccess2 />
