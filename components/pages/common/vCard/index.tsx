@@ -4,7 +4,7 @@ import React from "react";
 const VCard = ({ vcard }: any) => {
   return (
     <>
-      <div className="vcardBg h-[713px] w-[403.33px]">
+      <div className="vcardBg h-fit lg:h-[713px] w-[95%] lg:w-[403.33px]">
         <div className=" rounded-[30px]  h-fit w-fit ">
           <Image
             src={`./images/${vcard.src}.svg`}
@@ -17,7 +17,7 @@ const VCard = ({ vcard }: any) => {
           <p className="font-bold text-[14px] leading-[19px] opacity-30">
             12 june 2022
           </p>
-          <div className="font-bold text-[30px] leading-[44px]">
+          <div className="font-bold text-[26px] leading-[35px] lg:text-[30px] lg:leading-[44px]">
             Praesent purus convallis egestas scelerisque
           </div>
           <p className="font-bold text-[15px] leading-[26px] opacity-60">

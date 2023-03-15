@@ -27,7 +27,7 @@ export default function Home() {
         <SecSchedule5 />
         <SecVCards6 />
         <Footer />
-        <div className="absolute z-[-10] h-fit w-fit top-0 right-0">
+        <div className="absolute lg:flex hidden z-[-10] h-fit w-fit top-0 right-0">
           <Image
             src={"./images/big-cube.svg"}
             height={951}

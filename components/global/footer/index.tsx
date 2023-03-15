@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col mt-[112px] h-[289px] w-full text-white font-Manrope font-bold text-[12px] p-[54.5px_120px]  gap-[27.3px] leading-[26px] bg-[#4b4b4b66]">
-        <div className="flex flex-row gap-[55px]">
+      <div className="flex flex-col mt-[112px] h-fit lg:h-[289px] w-full text-white font-Manrope font-bold text-[12px] p-[32px] lg:p-[54.5px_120px]  gap-[27.3px] leading-[26px] bg-[#4b4b4b66]">
+        <div className="flex flex-col lg:flex-row gap-[55px]">
           <div className="w-[225px]">
             <div className="h-fit w-fit mb-[16px]">
               <Image
@@ -15,13 +15,13 @@ const Footer = () => {
                 alt="logo"
               />
             </div>
-            <p className="">
+            <p className=" text-[12px] leading-[16px]">
               Velit semper posuere ultricies volutpat sed. Tincidunt cras mauris
               aenean aliquet neque.
             </p>
           </div>
-          <ul className="opacity-70 flex flex-col items-start gap-[8px] w-[146px]">
-            <li className="flex flex-row justify-center items-center gap-[8px]">
+          <ul className="opacity-70 flex flex-row justify-between flex-wrap lg:flex-col items-start gap-[8px] w-full lg:w-[146px]">
+            <li className="flex w-[100px] flex-row justify-start items-center gap-[8px]">
               <div className="h-[16px] w-[16px] ">
                 <Image
                   src={"./icons/fb.svg"}
@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
               <span>Facebook</span>
             </li>
-            <li className="flex flex-row justify-center items-center gap-[8px]">
+            <li className="flex w-[100px] flex-row justify-start items-center gap-[8px]">
               <div className="h-[16px] w-[16px] ">
                 <Image
                   src={"./icons/Linkedin.svg"}
@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
               <span>Linkedin</span>
             </li>
-            <li className="flex flex-row justify-center items-center gap-[8px]">
+            <li className="flex w-[100px] flex-row justify-start items-center gap-[8px]">
               <div className="h-[16px] w-[16px] ">
                 <Image
                   src={"./icons/Twitter.svg"}
@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
               <span>Twitter</span>
             </li>
-            <li className="flex flex-row justify-center items-center gap-[8px]">
+            <li className="flex w-[100px] flex-row justify-start items-center gap-[8px]">
               <div className="h-[16px] w-[16px]">
                 <Image
                   src={"./icons/Instagram.svg"}
@@ -66,20 +66,22 @@ const Footer = () => {
               <span>Instagram</span>
             </li>
           </ul>
-          <ul className="opacity-70 flex flex-col items-start gap-[4px] w-[146px]">
-            <li>Enim sem</li>
-            <li>Viverra velit</li>
-            <li>Non sit</li>
-            <li>Odio nunc</li>
-            <li>Egestas neque</li>
-          </ul>
-          <ul className="opacity-70 flex flex-col items-start gap-[4px] w-[146px]">
-            <li>At aliquam</li>
-            <li>Enim duis</li>
-            <li>Nascetur sem</li>
-            <li>Sit suspendisse</li>
-            <li>Amet viverra</li>
-          </ul>
+          <div className="flex flex-row">
+            <ul className="opacity-70 flex flex-col items-start gap-[4px] w-full lg:w-[146px]">
+              <li>Enim sem</li>
+              <li>Viverra velit</li>
+              <li>Non sit</li>
+              <li>Odio nunc</li>
+              <li>Egestas neque</li>
+            </ul>
+            <ul className="opacity-70 flex flex-col items-start gap-[4px] w-full lg:w-[146px]">
+              <li>At aliquam</li>
+              <li>Enim duis</li>
+              <li>Nascetur sem</li>
+              <li>Sit suspendisse</li>
+              <li>Amet viverra</li>
+            </ul>
+          </div>
           <ul className="opacity-70 flex flex-col items-start gap-[4px]">
             <li>
               Commodo quis vestibulum convallis eget adipiscing id diam ut

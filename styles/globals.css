@@ -7,14 +7,17 @@
   @layer utilities {
     .wrapper {
       padding: 60px 120px;
+
+    }
+
+    @media screen and (max-width:1024px) {
+      .wrapper {
+        padding: 20px 16px;
+      }
     }
 
     .moreText {
-      /* font-weight: bold; */
-      font-size: 277px;
-      /* line-height: 313px; */
       text-align: center;
-      height: 180px;
       width: 700px;
       letter-spacing: -10px;
       background: linear-gradient(90.79deg, rgba(255, 255, 255, 0.33) 0.48%, #FFFFFF 24.27%, #FFFFFF 68.52%, rgba(255, 255, 255, 0.29) 106.69%);
@@ -26,9 +29,6 @@
 
     .gradText {
       font-weight: 700;
-      font-size: 152px;
-      line-height: 111px;
-      letter-spacing: -10px;
       background: linear-gradient(90.79deg, rgba(255, 255, 255, 0.33) 0.48%, #FFFFFF 24.27%, #FFFFFF 68.52%, rgba(255, 255, 255, 0.29) 106.69%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -36,21 +36,26 @@
       text-fill-color: transparent;
     }
 
-    .hcardBg {
+    .hcardBgW {
       background: rgba(75, 75, 75, 0.4);
       background: url("../public/images/blurImg.svg"), rgba(75, 75, 75, 0.4);
       background-blend-mode: screen, normal;
       backdrop-filter: blur(6px);
       border-radius: 80px;
-      /* border: 3px solid rgba(96, 96, 96, 0.4); */
-      /* opacity: 0.8; */
+    }
+
+    .hcardBgWO {
+      background: rgba(75, 75, 75, 0.4);
+      background-blend-mode: screen, normal;
+      backdrop-filter: blur(6px);
+      border-radius: 50px;
     }
 
     .callBg {
       background: url("../public/images/blurImgFull.svg"), rgba(75, 75, 75, 0.4);
       background-blend-mode: screen, normal;
       backdrop-filter: blur(6px);
-      /* opacity: 0.6; */
+      /* opacity: 0.9; */
     }
 
     .vcardBg {
@@ -58,7 +63,6 @@
       background-blend-mode: screen, normal;
       backdrop-filter: blur(17px);
       border-radius: 30px;
-      /* opacity: 0.6; */
     }
 
     .space-50vh {
