@@ -44,7 +44,7 @@ const Header = () => {
             />
           </div>
           <div className="h-fit w-fit mr-[20px]">
-            <Image src={"./icons/menu.svg"} height={32} width={32} alt="logo" />
+            <Image src={"./icons/Menu.svg"} height={32} width={32} alt="hamburger" />
           </div>
         </div>
       </div>

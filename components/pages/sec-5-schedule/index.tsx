@@ -58,7 +58,7 @@ const SecSchedule5 = () => {
                   className="h-[29px] w-[121px] bg-contain bg-center flex justify-center items-center opacity-20"
                 >
                   <Image
-                    src={`./icons/logo-text.svg`}
+                    src={`./icons/Logo-text.svg`}
                     height={29}
                     width={121}
                     alt="logo"
