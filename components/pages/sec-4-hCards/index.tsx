@@ -6,7 +6,7 @@ import HCard from "../common/hCard";
 const SecHCards4 = () => {
   return (
     <>
-      <div className="relative flex flex-col gap-[150px] justify-center items-center mt-[100px]">
+      <div className="relative flex flex-col lg:gap-[150px] gap-[64px] justify-center items-center mt-[100px]">
         {hcards &&
           hcards.map((ele: any, i: any) => {
             return <HCard key={i} ele={ele} />;

@@ -11,7 +11,7 @@ const SecVCards6 = () => {
           <div className="font-bold text-[32px] leading-[44px] text-center">
             Our Blog
           </div>
-          <div className="w-[943px] font-bold text-[16px] leading-[26px] text-center opacity-60">
+          <div className="w-[95%] lg:w-[943px] font-bold text-[16px] leading-[26px] text-center opacity-60">
             Stay up to date with the latest trends and insights in web3
             marketing by reading our blog. Our team of experts share their
             knowledge and experience on a wide range of topics to help you
@@ -24,7 +24,7 @@ const SecVCards6 = () => {
               return <VCard key={i} vcard={vcard} />;
             })}
         </div>
-        <div className="h-[58px] w-[180px] rounded-[70px] bg-[#2B2D36] flex justify-center items-center font-bold text-[16px] leading-[26px]">
+        <div className="h-[58px] w-[180px] rounded-[70px] bg-[#2B2D36] flex justify-center items-center opacity-60 font-bold text-[16px] leading-[26px]">
           View All Blogs
         </div>
         <div className="absolute top-[-400px] -z-10 right-0">
